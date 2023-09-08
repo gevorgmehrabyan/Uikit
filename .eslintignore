@@ -1,0 +1,5 @@
+# Ignore artifacts:
+.DS_Store
+/**/*.d.ts
+husky
+build

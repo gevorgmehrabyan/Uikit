@@ -1,0 +1,6 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+echo '[ Husky ] - prettier-check' && npm run prettier-check &&
+echo '[ Husky ] - lint-check' && npm run lint-check &&
+echo '[ Husky ] - build' && npm run build
